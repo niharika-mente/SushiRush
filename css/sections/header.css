@@ -1,0 +1,68 @@
+.header__nav {
+    display: flex;
+    overflow: hidden;
+
+}
+
+.header__logo {/*This box holds your logo or brand name.*/
+    flex: 1;
+    display:flex;
+    position: relative;
+    padding: 10px;
+}
+
+.header__logo-overlay {/*This is a background layer that covers the logo box*/
+    position: absolute;
+    inset: 0;
+    width: 102%;
+    background-color: var(--primary-color);
+    z-index:-1;
+}
+
+.header__logo h4 {/* {This styles the text inside the logo (like “SUSHIMAN”). */
+    padding-left:50px;
+    font-weight: 700;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: var(--playfair-display);
+    color:#fff;
+    opacity:1;
+}
+
+.header__menu, .header__menu-mobile {
+    padding: 20px;
+    flex: 1.236;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:84px;
+
+    z-index: 1;
+    list-style: none;
+  }
+  
+  .header__menu li {/*This styles each item in the menu list:*/
+
+
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    color: var(--secondary-color);
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 20px;
+    cursor: pointer;
+  }
+  
+  .header__menu li img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+  
+  .header__menu-mobile {
+    display: none;
+    gap: 20px;
+  
+    position: relative;
+  }
+  
