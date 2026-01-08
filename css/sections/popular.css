@@ -48,7 +48,7 @@
     font-weight: 300px;
     line-height: 25px;
     font-family: var(--plus-jakarta-sans);
-    color: #fff;
+    color: #fff; 
     cursor: pointer;
   }
   
@@ -88,7 +88,7 @@
     font-size: 18px;
     line-height: 23px;
     font-family: var(--plus-jakarta-sans);
-    color: #fff;
+    color: #fff; 
   
     border: none;
     outline: none;
@@ -157,7 +157,7 @@
     font-size: 20px; 
     font-weight: 300;
     font-family: var(--plus-jakarta-sans);
-    color: #fff;
+    color: #fff; 
   }
   
   .popular-foods__card-price {
@@ -168,7 +168,7 @@
   }
   
   .popular-foods__card.active-card {
-    background: #fff;
+    /* background: #fff; */
     min-width: 340px;
   }
   

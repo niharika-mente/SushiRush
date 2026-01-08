@@ -56,3 +56,17 @@ const cards = [
         price: "$21.00"
     }
 ];
+
+
+const btn = document.getElementById( "subscribe-btn" );
+const successMsg = document.getElementById( "successMsg" );
+const emailInput = document.getElementById( "email" );
+
+btn.addEventListener( "click", () =>
+{
+    if ( emailInput.value.trim() === "" ) return;
+
+    successMsg.style.display = "block";
+    emailInput.value = "";
+} );
+
