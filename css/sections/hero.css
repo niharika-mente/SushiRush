@@ -117,7 +117,6 @@
   }
   
   .hero-content__testimonial {
-<<<<<<< HEAD
     padding: 32px 64px;
   
     display: flex;
@@ -125,12 +124,6 @@
     gap: 20px;
   
     background: var(--color-white)
-=======
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    
->>>>>>> 8f808b08153f819188e3e7a67e9b476c8dc4f617
   }
   
   .hero-content__customer {
