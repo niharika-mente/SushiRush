@@ -6,15 +6,10 @@
   
     background-color: var(--primary-color);
     background-image: url("../../assets/popular_bg.png");
-<<<<<<< HEAD
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
   
-=======
-    background-size: contain;
-
->>>>>>> 8f808b08153f819188e3e7a67e9b476c8dc4f617
     overflow: hidden;
   }
   
@@ -53,11 +48,7 @@
     font-weight: 300px;
     line-height: 25px;
     font-family: var(--plus-jakarta-sans);
-<<<<<<< HEAD
     color: #fff; 
-=======
-    color: #fff;
->>>>>>> 8f808b08153f819188e3e7a67e9b476c8dc4f617
     cursor: pointer;
   }
   
@@ -97,11 +88,7 @@
     font-size: 18px;
     line-height: 23px;
     font-family: var(--plus-jakarta-sans);
-<<<<<<< HEAD
     color: #fff; 
-=======
-    color: #fff;
->>>>>>> 8f808b08153f819188e3e7a67e9b476c8dc4f617
   
     border: none;
     outline: none;
@@ -170,11 +157,7 @@
     font-size: 20px; 
     font-weight: 300;
     font-family: var(--plus-jakarta-sans);
-<<<<<<< HEAD
     color: #fff; 
-=======
-    color: #fff;
->>>>>>> 8f808b08153f819188e3e7a67e9b476c8dc4f617
   }
   
   .popular-foods__card-price {
@@ -185,11 +168,7 @@
   }
   
   .popular-foods__card.active-card {
-<<<<<<< HEAD
     /* background: #fff; */
-=======
-    background: #fff;
->>>>>>> 8f808b08153f819188e3e7a67e9b476c8dc4f617
     min-width: 340px;
   }
   

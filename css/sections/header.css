@@ -31,10 +31,7 @@
 
 .header__menu, .header__menu-mobile {
     padding: 20px;
-<<<<<<< HEAD
     flex: 1.236;
-=======
->>>>>>> 8f808b08153f819188e3e7a67e9b476c8dc4f617
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,21 +39,14 @@
 
     z-index: 1;
     list-style: none;
-<<<<<<< HEAD
      @media (max-width: 912px) {
       color:var(--color-white);
       background-color: var(--primary-color);
     }
-=======
->>>>>>> 8f808b08153f819188e3e7a67e9b476c8dc4f617
   }
   
   .header__menu li {/*This styles each item in the menu list:*/
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 8f808b08153f819188e3e7a67e9b476c8dc4f617
     font-weight: 500;
     font-family: var(--plus-jakarta-sans);
     color: var(--secondary-color);
@@ -73,12 +63,7 @@
   }
   
   .header__menu-mobile {
-<<<<<<< HEAD
     display: none;
-=======
-    display: flex;
-    justify-content:flex-end;
->>>>>>> 8f808b08153f819188e3e7a67e9b476c8dc4f617
     gap: 20px;
   
     position: relative;
